@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css?family=Tiro Gurmukhi|Montserrat|Raleway|Bree Serif|Uchen|Libre Baskerville|Noto Sans');   
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css);
+
+/* Header section */
+.header{
+    width: 100%;
+    background-color: #d1eeef;
+}
+
+/* Background for upper part of landing page */
+.back-img{
+    background-color: #d1eeef;
+}
+
+.desc{
+    margin-top: 100px;
+    text-align: center;
+    font-size: 1.9rem;
+    padding: 10px;
+    margin-bottom: 30px;
+    font-family: "Bree Serif";
+}
+
+.book{
+    text-align: center;
+}
+
+#img{
+    margin-top: 20px;
+    max-width: 50%;
+    margin-bottom: 70px;
+}
+
+.services-list{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.services-list ul{
+    list-style:none;
+    margin-bottom: 50px;
+}
+
+.services-list li{
+    font-family: "Raleway";
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: 10px;
+}
+
+.services-list li h1{
+    font-size: 2rem;
+}
+
+.services-header{
+    margin-top: 50px;
+    max-width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.services-header h1, .work h1{
+    font-family: "Tiro Gurmukhi";
+    font-size: 3.2rem;
+}
+
+.services-header h3{
+    max-width: 70%;
+    line-height: 35px;
+    font-family: "Montserrat";
+    font-size: 1.2rem;
+}
+
+.work{
+    margin-top: 50px;
+    max-width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.how-it-works{
+    background-color: #f2f0e8;
+    overflow: hidden;
+    margin-top: -5px;
+}
+
+.work-steps{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.steps{
+    text-align: center;
+    max-width: 25%;
+}
+
+.steps ul{
+    list-style: none;
+    margin-bottom: 170px;
+}
+
+.steps li{
+    font-family: "Raleway";
+    font-size: 1.2rem;
+}
+
+.w{
+    line-height: 30px;
+}

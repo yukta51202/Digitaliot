@@ -1,0 +1,335 @@
+@import url('https://fonts.googleapis.com/css?family=Righteous|Lora|Montserrat|Raleway|Bree Serif|Uchen|Libre Baskerville|Noto Sans');   
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css);
+
+body{
+    margin: 0 auto;
+}
+
+/* Header section */
+.header{
+    width: 100%;
+    background-color: #fdeced;
+}
+
+/* Header section container */
+.max-container {
+    margin: 0 auto;
+    padding: 0 50px;
+}
+
+/* Navigation Bar */
+.NavigationMain{
+    display:flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px 0 0 0;
+}
+
+/* Navigation bar list */
+.Navigation{
+    margin-left: auto;
+}
+
+/* list of navigation bar */
+.nav{
+    color: black;
+    list-style-type: none; 
+    display: flex;  
+}
+
+/* items of navigation bar list*/
+.nav li{
+    padding: 20px;
+    font-size: 1.3rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.purple{
+    color: purple;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+}
+
+/* color of elements of navigation bar */
+a{
+    text-decoration: none;
+    color: black;
+}
+
+/* setting the color when item of navigation bar is active */
+a:active, a:hover{
+    color: purple;
+}
+
+/* Background for upper part of landing page */
+.back-img{
+    background-color: #fdeced;
+    display: flex;
+    flex-wrap: wrap-reverse;
+}
+
+/* Main text of Landing page */
+.main-text{
+    max-width: 40%;
+    margin: 0 0 0 auto;
+}
+
+/* Text "Build you brand's success" */
+.dem{
+    margin-top: 20%;
+    font-size: 1.7rem;
+    background-color: black;
+    color:white;
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 2px;
+}
+
+/* Text "Innovative Minds Digitalize" */
+.b{
+    font-size: 3.7rem;
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 30px;
+    font-family: "Bree Serif";
+}
+
+/* Background Image */
+#img{
+    margin-right: auto;
+    max-width: 50%;
+    margin-bottom: 20px;
+}
+
+/* Book Online and Start a Project button */
+#button, #btn{
+    margin-top: 2%;
+    background-color: black;
+    border-color: black;
+    font-size: 1.1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    border-radius: 30px;
+    padding: 10px 30px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+#button:hover{
+    background-color: rgb(24, 24, 24);
+    border-color: rgb(24, 24, 24);
+}
+
+#btn::after{
+    padding-left : 10px;
+    content : "\f061";
+    display : inline-block;
+    font : normal normal normal 14px/1 FontAwesome;
+    font-size : inherit;
+    text-rendering : auto;
+    -webkit-font-smoothing : antialiased;
+    -moz-osx-font-smoothing : grayscale;
+}
+
+.wrapper{
+    margin-left: 7.2%;
+}
+
+/* Portfolio Heading */
+#port_head{
+    font-family: "Righteous";
+    max-width: 50%;
+    font-size: 2.8rem;
+}
+
+/* Portfolio Description */
+#port_desc{
+    margin-top: -30px;
+    font-family: "Montserrat";
+    max-width: 45%;
+    letter-spacing: 1px;
+    line-height: 35px;
+}
+
+/* Rectangle */
+#rect{
+    margin-top: 65px;
+    position: absolute;
+    z-index: -1;
+    height: 12%;
+    width: 45%;
+    background-color: #a2d2ff;
+}
+
+.wave{
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    transform: translateY(100%);
+    z-index: 1;
+}
+
+.point{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.svg{
+    overflow: hidden;
+    vertical-align: middle;
+}
+
+/* Testimonials Section */
+#Testimonials{
+    margin-top: 88px;
+    background-color: #e0effc;
+    overflow: hidden;
+}
+
+/* Testimonials Heading */
+#Testimonials h1{
+    font-size: 3.2rem;
+    font-family: "Bree Serif";
+    font-weight: 800;
+    margin-left: 7.2%;
+}
+
+
+#test1{
+    display: inline-block;
+    margin-top: -70px;
+}
+
+/* Testimonial section */
+.test_cont{
+    display : flex;
+    flex-wrap: wrap;
+}
+
+/* Testimonial Card */
+.card{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    border-radius: 20px;
+    background-image: url(Images/quote.svg);
+    background-repeat: no-repeat;
+    background-position: center 10px;
+    box-shadow: 8px 8px 8px 0 #457b9d;
+    transition: 0.3s;
+    background-color: white;
+    width: 500px;
+    height: 420px;
+    margin-bottom: 200px;
+    text-align: center;
+}
+
+.card:hover{
+    box-shadow: 8px 8px 8px 0 #1d3557;
+}
+
+/* Testimonial content */
+.container{
+    font-family: "Raleway";
+    font-size: 1.2rem;
+    padding: 20px 40px;
+    font-weight: 800;
+    line-height: 30px;
+}
+
+.footer{
+    background-color: #302e3f;
+    overflow: hidden;
+    margin-top: -5px;
+}
+
+.footer-container{
+    display: flex;
+}
+
+.section{
+    margin: auto;
+}
+
+.f1{
+    margin-left: auto;
+    max-width: 80%;
+}
+
+.contact-img{
+    margin-top: 5%;
+    max-width: 50%;
+    margin-right: 5%;
+}
+
+.f1 h1{
+    font-size: 3.2rem;
+    font-family: "Bree Serif";
+    font-weight: 800;
+    color: white;
+}
+
+#foot-btn{
+    background-color: #fec5bb;
+    border: 0;
+    font-size: 1.1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 25px;
+    border-radius: 30px;
+    padding: 10px 30px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.f-wave{
+    width: 100%;
+    margin-top: -90px;
+}
+
+.footer .wrapper-footer {
+    margin-top: 70px;
+    padding-top: 40px;
+    width: 80%;
+    border-top: 5px solid #fcbf49;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer .wrapper-footer .inner-col .row .footer-phone a, .footer-email a, .footer-address{
+    display: flex;
+    align-items: center;
+    color: #fec5bb;
+    text-decoration: none;
+    font-size: 19px;
+    font-weight: 600;
+    margin-right: 100px;
+}
+
+.row.phone-email{
+    display: flex;
+    align-items: center;
+}
+
+.footer-address{
+    width: 500px;
+}
+
+.inner-col{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: auto;
+}
+
+.row.phone-email img{
+    display: flex;
+    width: 35px;
+}
