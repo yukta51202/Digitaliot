@@ -1,15 +1,1 @@
-Home page : 
-    - Book
-    - good design
-    - portfolio
-    - testimonials (Coreshore)
-    - speak to us (Coreshore)
-
-Services:
-    - What we are
-    - what we do
-    - how it works
-    - Ready to switch?
-
-Contact 
-    - 
+This project aims to build a digital marketing website for a firm "Digtaliot" that brings services close to people. It offers cost effective solutions that are feasible for small to mid-scale businesses. It helps focus on targeted audiences with a global reach, unlike traditional marketing, bringing in high revenue with little investment. It is conversion-led and can easily be monitored. It helps businesses understand consumer behavior, make customer conversations easier and also enhance their offerings with the aim of maximum customer satisfaction. The services offered by this firm are: Website design and development, advertisement design and promotion, project analysis and structure. The businesses can arrange for a call to avail services by filling the form.
