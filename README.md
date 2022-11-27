@@ -14,4 +14,4 @@ Visual Studio Code, Static Web Apps
 
 <h3> Demo </h3>
 
-https://agreeable-sand-01640d700.2.azurestaticapps.net/
+https://blue-grass-01ac8b400.2.azurestaticapps.net/
