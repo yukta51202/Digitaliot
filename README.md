@@ -12,6 +12,15 @@ This project aims to build a digital marketing website for a firm "Digtaliot" th
 
 Visual Studio Code, Static Web Apps
 
+<h3> Deployment Steps followed: </h3>
+
+1. On Visual Studio, click on create static web apps using Azure. 
+2. Fill the correct details of web app name, tecnhology it is based on, root directory, etc.
+3. Continue with default options filled. 
+4. Wait for deployment of app on Azure. 
+5. Click on github ations button and wait for the workflow to run properly.
+6. Boom, website is deployed!
+
 <h3> Demo </h3>
 
 https://blue-grass-01ac8b400.2.azurestaticapps.net/
